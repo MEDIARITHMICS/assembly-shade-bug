@@ -6,7 +6,7 @@ scalaVersion := "2.10.6"
 
 name := "assembly-shade-bug"
 
-libraryDependencies += "org.parboiled" %% "parboiled" % "2.1.2"
+libraryDependencies += "org.parboiled" %% "parboiled" % "2.0.1"
 
 assemblyOption in assembly ~= { _.copy(includeScala = false) }
 
